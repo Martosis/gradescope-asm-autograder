@@ -1,4 +1,5 @@
 import re
+import vars
 
 def process_answer(answer):
     answer = answer.replace(",", " ").strip()
